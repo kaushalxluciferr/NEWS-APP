@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(47, 40, 81);
+}
+nav .main-nav img{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 12px;
+
+}
+nav .nav-links ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+nav .nav-links ul{
+    margin-top: 30px;
+}
+nav .nav-links ul li a{
+text-decoration: none;
+color: wheat;
+font-size: 20px;
+}
+nav .nav-links ul li a:hover{
+    cursor: pointer;
+    color: aqua;
+    transition: ease-in 0.5s;
+}
+.btn{
+    width: 100px;
+    margin-right: 20px;
+    height: 28px;
+    margin-top: 30px;
+    border: 3px solid blue;
+    border-radius: 12px;
+    background-color: aquamarine;
+    color: rgb(107, 63, 63);
+    font-size: 18px;
+}
+#news-input{
+    height: 25px;
+    padding: 5px;
+    border-radius: 12px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+main{
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+
+.cards-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+    display: flex;
+}
+.card{
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 0px 0px 4px #d4ecff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+    background: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY((-3px));
+}
+.card-header img{
+    width: 100%;
+    height: 250px;
+}
+.card-content{
+    padding: 10px;
+}
+.news-title{
+    font-weight: 800;
+    font-size: 26px;
+}
+.news-source{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.news-desc{
+    margin-top: 8px;
+    font-weight: 500;
+}
